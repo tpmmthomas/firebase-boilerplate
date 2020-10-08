@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "fir-boilerplate-92e4c"
+    "default": "fir-boilerplate-92e4c",
+    "try": "cfgtry-f4608"
   }
 }
