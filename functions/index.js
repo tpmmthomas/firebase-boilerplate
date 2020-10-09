@@ -34,7 +34,7 @@ app.get("/read-doc", async (req, res) => {
   try {
     const r = await docRef.get();
     console.log("Read Success", r);
-    return res.status(200).send({
+    return res.status(200).send(){
       name: r.id,
       value: r.data(),
     });
